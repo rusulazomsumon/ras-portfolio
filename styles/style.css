@@ -126,6 +126,7 @@ nav{
 .info-area .descrption h5{
     font-size: 28px;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 /* Icon Area Start */
@@ -153,6 +154,8 @@ nav{
     font-size: 32px;
     font-weight: bold;
     border: 3px solid 263229;
+    box-shadow: 2px 2px 5px #021407;
+
     background-color: #DCE4E7;
     border-radius: 10px;
     text-transform: uppercase;
@@ -161,7 +164,7 @@ nav{
 }
 
 .hire-me-btn-container button:hover{
-    border: 3px solid 263229;
+    border: 5px solid 263229;
     background-color: #263229;
     border-radius: 10px;
     text-transform: uppercase;
