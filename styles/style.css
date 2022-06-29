@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: #263229;
+    background-color: #DCE4E7;
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+}
+header{
+    background-color: #202222;
+}
+/* Main Container , determing the content body area */
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+/* Brands name and menu item container */
+nav{
+    width: 100%;
+    height: 100px;
+    color: #ffffff;
+}
+/* It is containing the brand name and menus */
+.nav-item-caontainer{
+    height: 100px;
+    display: flex;
+    /* center from top to bottom */
+    align-items: center;
+}
+/* Menus Container  */
+.nav-menu-container{
+    display: flex;
+    margin-left: auto;
+}
+/* Desining the logo/ brand area */
+/* TODO: Create a animation of RAS, color or size or anything */
+.nav-item-caontainer abbr{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Desinging the menus */
+.nav-item{
+    margin-left: 40px;
+}
+/* Designing the ankor or menus */
+.nav-item a,
+.nav-item a:active,
+.nav-item a:visited,
+.nav-item a:hover{
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* header End */
+
+/* Main Body Style Start */
+.biodata-card{
+    width: 100%;
+    height: 560px;
+    margin-top: 80px;
+    border: 1px solid #202222;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #021407;
+    display: flex;
+}
+.photo-area{
+    width: 500px;
+    height: 560px;
+    /* for disply center of the section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-container{
+    width: 420px;
+    height: 460px;
+    border: 1px solid #202222;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* if the picture bigger then this box, it will take this shape */
+    overflow: hidden;
+
+}
+/* Controling image size to parent container */
+.photo-container img{
+    width: 420px;
+    height: 460px;
+}
+
+/* Right Sidebar: info area */
+.info-area{
+    width: 900px;
+    height: 560px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.title-info h3{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #263229;
+}
+.title-info h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #263229;
+}
+/* Description Area */
+.info-area .descrption{
+    margin-top: 50px;
+    font-size: 24px;
+}
+.info-area .descrption h5{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Button Area */
+.hire-me-btn-container{
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hire-me-btn-container button{
+    font-size: 32px;
+    font-weight: bold;
+    border: 3px solid 263229;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+    color: #263229;
+}
+
+.hire-me-btn-container button:hover{
+    border: 3px solid 263229;
+    background-color: #263229;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Icon Area Start */
+.icon-container{
+    width: 100%;
+    display: flex;
+}
+.icon-item{
+    margin-top: 12px;
+    margin-right: 12px;
+}
+/* Icon Area End */
+/* Info Area End */
