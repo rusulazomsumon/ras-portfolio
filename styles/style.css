@@ -128,6 +128,17 @@ nav{
     font-weight: bold;
 }
 
+/* Icon Area Start */
+.icon-container{
+    width: 100%;
+    display: flex;
+}
+.icon-item{
+    margin-top: 12px;
+    margin-right: 12px;
+}
+/* Icon Area End */
+
 /* Button Area */
 .hire-me-btn-container{
     margin-top: 50px;
@@ -142,6 +153,7 @@ nav{
     font-size: 32px;
     font-weight: bold;
     border: 3px solid 263229;
+    background-color: #DCE4E7;
     border-radius: 10px;
     text-transform: uppercase;
     padding: 5px;
@@ -157,14 +169,5 @@ nav{
     cursor: pointer;
 }
 
-/* Icon Area Start */
-.icon-container{
-    width: 100%;
-    display: flex;
-}
-.icon-item{
-    margin-top: 12px;
-    margin-right: 12px;
-}
-/* Icon Area End */
+
 /* Info Area End */
