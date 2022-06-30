@@ -134,13 +134,20 @@ nav{
     width: 100%;
     display: flex;
 }
-.icon-item{
+.icon-container .icon-item img{
+    opacity: 70%;
+}
+
+.icon-container .icon-item img:hover{
+    opacity: 85%;
+}
+.icon-container .icon-item{
     margin-top: 12px;
     margin-right: 12px;
     cursor: pointer;
     transition: transform 0.8s;
 }
-.icon-item:hover{
+.icon-container .icon-item:hover{
     /* TODO: https://www.youtube.com/watch?v=EgRKkn76pic */
     transform: translateY(-10px);   
 }
