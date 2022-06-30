@@ -62,7 +62,7 @@ nav{
 /* header End */
 
 /* Main Body Style Start */
-.biodata-card{
+.bio-card-design{
     width: 100%;
     height: 560px;
     margin-top: 80px;
@@ -70,6 +70,8 @@ nav{
     border-radius: 10px;
     box-shadow: 2px 2px 5px #021407;
     display: flex;
+
+    background-color: #ffffff;
 }
 .photo-area{
     width: 500px;
@@ -170,7 +172,7 @@ nav{
     border: 3px solid 263229;
     box-shadow: 2px 2px 5px #021407;
 
-    background-color: #DCE4E7;
+    background-color: #ffffff;
     border-radius: 10px;
     /* box-shadow: 0 9px 18px 0 #333333, 0 8px 24px 0 #333333; */
     box-shadow: 2px 2px 5px #021407;
@@ -193,5 +195,108 @@ nav{
     transform: translateY(-10px);   
 }
 
+/* Bio Info Area End */
+/* ################################################################### */
+/* Common Cards Design Skill, Projects, Services, Blog */
+.card-design{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    border: 1px solid #202222;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #021407;
 
-/* Info Area End */
+    background-color: #ffffff;
+}
+/* Common Card Intro  */
+.card-intro{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+.card-intro-container{
+    width: 60%;
+    height: 100%;
+    margin-top: 50px;
+}
+.card-intro-title h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #263229;
+}
+.card-intro-des p{
+    padding-top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Common card details sections */
+.card-details{
+    margin: 30px 30px 50px 30px;
+}
+.details-items-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+/* ######## Common Section End ######### */
+/* ########### Skill Section Items Property Start ######## */
+.skill-item{
+    width: 100%;
+    height: auto;
+    border: 0.5px solid #021407;
+    box-shadow: 2px 2px 5px #021407;
+
+    border-radius: 5px;
+
+    align-items: center;
+}
+.skill-item-icon-area {
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-item-icon-area .icon-holder{
+    width: 20%;
+    height: 90%;
+    border-radius: 50%;
+    border: 3px solid #021407;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-item-icon-area .icon-holder img{
+    opacity: 80%;
+}
+
+/* Skill Item details */
+.skill-item-detail h1{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #263229;
+}
+.skill-item-detail ul{
+    margin: 10px 10px 30px 20px;
+}
+.skill-item-detail ul>li{
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #263229;
+    text-transform: capitalize;
+
+    list-style: url(../media/icons/check.svg);
+}
+
+/* ######## Skill Section Item Property End */
+
