@@ -137,6 +137,12 @@ nav{
 .icon-item{
     margin-top: 12px;
     margin-right: 12px;
+    cursor: pointer;
+    transition: transform 0.8s;
+}
+.icon-item:hover{
+    /* TODO: https://www.youtube.com/watch?v=EgRKkn76pic */
+    transform: translateY(-10px);   
 }
 /* Icon Area End */
 
