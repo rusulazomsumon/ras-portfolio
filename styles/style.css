@@ -137,12 +137,16 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .hire-me-btn-container button{
     font-size: 32px;
     font-weight: bold;
     border: 3px solid 263229;
     border-radius: 10px;
+    /* box-shadow: 0 9px 18px 0 #333333, 0 8px 24px 0 #333333; */
+    box-shadow: 2px 2px 5px #021407;
+
     text-transform: uppercase;
     padding: 5px;
     color: #263229;
