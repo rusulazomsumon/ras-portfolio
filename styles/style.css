@@ -185,9 +185,8 @@ nav{
 }
 
 .hire-me-btn-container button:hover{
-    border: 5px solid 263229;
     background-color: #263229;
-    border-radius: 10px;
+    border-radius: 5px;
     text-transform: uppercase;
     color: #ffffff;
     cursor: pointer;
@@ -242,15 +241,47 @@ nav{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2rem;
 }
+
+.btn-container{
+    width: 100%;
+    height: 20%;
+    margin-top: 20px;
+}
+
+.btn-container button{
+    padding: 2px;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+    color:#263229;
+
+    transition: transform .8s;
+}
+
+.btn-container button:hover{
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #263229;
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    transform: translateY(-10px);
+}
 /* ######## Common Section End ######### */
+
 /* #####3333333333###### Skill Section Items Property Start ###3333333333##### */
 .skill-item{
     width: 100%;
     height: auto;
+    border-radius: 5px;
     border: 0.5px solid #021407;
     box-shadow: 2px 2px 5px #021407;
-
-    border-radius: 5px;
 
     align-items: center;
 }
@@ -334,6 +365,8 @@ nav{
     align-items: center;
 }
 .projects-item-detail{
+    width: 70%;
+    height: auto;
     margin: 30px 20px;
 }
 .projects-item-detail h1{
@@ -359,8 +392,20 @@ nav{
 .projects-item-detail ul{
     margin-left: 10px;
 }
+.projects-item-detail ul>li{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #263229;
+    text-transform: capitalize;
+
+    list-style:inside;
+}
 /* 
 TODO: Internal Page linking trasalation speed smooth 
 TODO: Skill and other section card hover action 
 TODO: Add oppacity .7 every picture and icon
+TODO: Add link to social icon. 
+
 */
