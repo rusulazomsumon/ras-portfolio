@@ -178,6 +178,8 @@ nav{
     text-transform: uppercase;
     padding: 5px;
     color: #263229;
+
+    transition: transform 0.8s;
 }
 
 .hire-me-btn-container button:hover{
@@ -187,6 +189,8 @@ nav{
     text-transform: uppercase;
     color: #ffffff;
     cursor: pointer;
+
+    transform: translateY(-10px);   
 }
 
 
