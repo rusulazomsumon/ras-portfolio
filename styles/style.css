@@ -8,6 +8,7 @@ body{
     min-height: 100vh;
     font-family: 'Roboto Mono', monospace;
 }
+
 header{
     background-color: #202222;
 }
@@ -207,6 +208,9 @@ nav{
 
     background-color: #ffffff;
 }
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&& Common Section Card &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
 /* Common Card Intro  */
 .card-intro{
     width: 100%;
@@ -231,7 +235,6 @@ nav{
     font-size: 24px;
     text-align: center;
 }
-/* &&&&&&&&&&&&&&&&&&&&&&&&&& Common Section Card &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 /* Common card details sections */
 .card-details{
     margin: 30px 30px 50px 30px;
@@ -402,6 +405,95 @@ nav{
 
     list-style:inside;
 }
+
+/* 
+%%%%%%%%%%%%%% Projects Items Area %%%%%%%%%%%% 
+*/
+.card-intro-des h3{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+.service-item{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px 30px;
+
+    justify-content: center;
+    align-items: center;
+}
+.service-item-icon-area {
+    width: 100%;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-icon-holder{
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Test area services  */
+
+.service-item-detail h1{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    color: #263229;
+}
+.service-item-detail p{
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.service-btn-container{
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-btn-container button{
+    padding: 2px;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+    color:#263229;
+    box-shadow: 2px 2px 5px #021407;
+
+    transition: transform .8s;
+}
+
+.service-btn-container button:hover{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 10px #021407;
+    color: #ffffff;
+    background-color: #263229;
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    transform: translateY(-5px);
+}
 /* 
 TODO: Internal Page linking trasalation speed smooth 
 TODO: Skill and other section card hover action 
@@ -414,6 +506,9 @@ TODO: Wather API
 TODO: Night View 
 TODO: Bangla or Other Language
 TODO: download resulme beside hire me 
+TODO: Munus hover effects main menu 
+TODO: contact form , Order now form
+
 
 
 
