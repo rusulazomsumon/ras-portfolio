@@ -388,8 +388,9 @@ nav{
 .projects-item-detail h3{
     margin-top: 10px;
     font-size: 20px;
+    font-weight: 600;
+
     text-transform: capitalize;
-    text-decoration: underline;
     color: #263229;
 }
 .projects-item-detail ul{
@@ -407,7 +408,7 @@ nav{
 }
 
 /* 
-%%%%%%%%%%%%%% Projects Items Area %%%%%%%%%%%% 
+////////%%%%%%%% Projects Items Area %%%%%%%%%/////////// 
 */
 .card-intro-des h3{
     padding-top: 20px;
@@ -494,6 +495,7 @@ nav{
 
     transform: translateY(-5px);
 }
+
 /* 
 TODO: Internal Page linking trasalation speed smooth 
 TODO: Skill and other section card hover action 
