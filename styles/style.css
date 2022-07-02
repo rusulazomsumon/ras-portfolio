@@ -297,6 +297,7 @@ nav{
     align-items: center;
 }
 .skill-item-icon-area .icon-holder{
+    margin-top: 10px;
     width: 20%;
     height: 90%;
     border-radius: 50%;
