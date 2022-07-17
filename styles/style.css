@@ -502,17 +502,21 @@ nav{
 .blog-item img{
     width: 100%;
     height: 20%;
+    cursor: pointer;
 }
 .blog-title-info h1{
     font-size: 36px;
-    font-weight: bolder;
-    color:#021407;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    text-transform: capitalize;
+    color: #263229;
 }
 .blog-author-info h3{
+    margin-bottom: 10px;
     font-size: 24px;
+    font-family: 'Cormorant SC', serif;
     font-weight: 600;
     color: #000000;
-    opacity: 80%;
 }
 .blog-author-info{
     display: flex;
@@ -524,6 +528,12 @@ nav{
     width: 25px;
     border-radius: 50%;
 
+}
+.blog-item-detail-area{
+    font-size: 16px;
+    font-family: 'Anton', sans-serif;
+    text-transform: capitalize;
+    color: #263229;
 }
 /* 
 TODO: Internal Page linking trasalation speed smooth 
