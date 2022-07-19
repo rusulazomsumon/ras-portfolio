@@ -543,7 +543,7 @@ nav{
 */
 .contact-card-design{
     width: 100%;
-    height: 560px;
+    height: auto;
     margin-top: 80px;
     border: 1px solid #202222;
     border-radius: 10px;
@@ -594,10 +594,9 @@ nav{
 
 /* Right Sidebar: info area */
 .contact-info-area{
+    margin-bottom: 20px;
     width: 50%;
     height: auto;
-    
-    
 }
 .icon-text-container{
     width: 100%;
@@ -645,7 +644,19 @@ nav{
     /* TODO: https://www.youtube.com/watch?v=EgRKkn76pic */
     transform: translateY(-10px);   
 }
-
+/* 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%((((((((FOOTER AREA)))))))))%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+footer{
+    margin-top: 50px;
+}
+.footer-item-container{
+    text-align: center;
+    font-size: larger;
+}
+.footer-item-container a{
+    text-decoration: none;
+}
 /* 
 TODO: Internal Page linking trasalation speed smooth 
 TODO: Skill and other section card hover action 
