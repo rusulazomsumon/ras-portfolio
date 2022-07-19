@@ -555,7 +555,6 @@ nav{
     margin-bottom: 50px;
 }
 .ContractSecBottom{
-    
     display: flex;
 }
 .contact-text-box-area{
@@ -594,8 +593,59 @@ nav{
  }
 
 /* Right Sidebar: info area */
+.contact-info-area{
+    width: 50%;
+    height: auto;
+    
+    
+}
+.icon-text-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Ibarra Real Nova', serif;
+    text-transform: capitalize;
+    color: #263229;
+    
+}
 
-/* Icon Area End */
+.contact-text-item{
+    margin-bottom: 20px;
+}
+.contact-text-item a{
+    text-decoration: none;
+    color: #263229;
+}
+.contact-info-area hr{
+    width: 50%;
+}
+
+/* Icon Area */
+.contact-icon-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact-icon-container .icon-item img{
+    opacity: 70%;
+}
+
+.contact-icon-container .icon-item img:hover{
+    opacity: 85%;
+}
+.contact-icon-container .icon-item{
+    margin-top: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: transform 0.8s;
+}
+.contact-icon-container .icon-item:hover{
+    /* TODO: https://www.youtube.com/watch?v=EgRKkn76pic */
+    transform: translateY(-10px);   
+}
+
 /* 
 TODO: Internal Page linking trasalation speed smooth 
 TODO: Skill and other section card hover action 
