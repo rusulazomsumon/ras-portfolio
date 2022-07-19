@@ -547,8 +547,9 @@ nav{
     margin-top: 80px;
     border: 1px solid #202222;
     border-radius: 10px;
+
     box-shadow: 2px 2px 5px #021407;
-    background-color: #ffffff;
+    background-color: rgb(206, 199, 190);
 }
 .ContactSecTop{
     margin-bottom: 50px;
@@ -560,68 +561,40 @@ nav{
 .contact-text-box-area{
     width: 50%;
     height: auto;
-    background-color: #000000;
     
 }
 .contact-text-box-area form{
     margin: 0px 30px 0px 30px;
     
+    
 }
 
+.contact-text-box-area form input,
+.contact-text-box-area form textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 10px;
+
+    border: none;
+    border-radius: 5px;
+    
+}
+.contact-text-box-area form textarea{
+   resize: vertical;
+    
+}
+
+.contact-text-box-area form input[type='submit']{
+     color:#263229;
+     cursor: pointer;
+     font-size: 14px;
+     font-weight: 600;
+ }
 
 /* Right Sidebar: info area */
-.info-area{
-    width: 900px;
-    height: 560px;
-    margin-top: 50px;
-    margin-left: 50px;
-}
 
-.title-info h3{
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: capitalize;
-    color: #263229;
-}
-.title-info h1{
-    font-size: 36px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #263229;
-}
-/* Description Area */
-.info-area .descrption{
-    margin-top: 50px;
-    font-size: 24px;
-}
-.info-area .descrption h5{
-    font-size: 28px;
-    font-weight: bold;
-    text-transform: capitalize;
-}
-
-/* Icon Area Start */
-.icon-container{
-    width: 100%;
-    display: flex;
-}
-.icon-container .icon-item img{
-    opacity: 70%;
-}
-
-.icon-container .icon-item img:hover{
-    opacity: 85%;
-}
-.icon-container .icon-item{
-    margin-top: 12px;
-    margin-right: 12px;
-    cursor: pointer;
-    transition: transform 0.8s;
-}
-.icon-container .icon-item:hover{
-    /* TODO: https://www.youtube.com/watch?v=EgRKkn76pic */
-    transform: translateY(-10px);   
-}
 /* Icon Area End */
 /* 
 TODO: Internal Page linking trasalation speed smooth 
