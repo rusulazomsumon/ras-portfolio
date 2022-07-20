@@ -1,6 +1,11 @@
 *{
     box-sizing: border-box;
 }
+/* Smooth scrolling for back to top and other scrolling */
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     color: #263229;
     background-color: #DCE4E7;
@@ -657,19 +662,55 @@ footer{
 .footer-item-container a{
     text-decoration: none;
 }
+
 /* 
-TODO: Internal Page linking trasalation speed smooth 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%((((((((BACK TO TOP)))))))))%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+.back-to-top{
+    background-color: #202222;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    padding: 10px;
+    color: #DCE4E7;
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: x-large;
+
+    /* hide in general, Deactive Mode */
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+.back-to-top.active {
+    bottom: 20px;
+    pointer-events: auto;
+    opacity: .75;
+    border-radius: 50%;
+    
+}
+.back-to-top.active:hover {
+    opacity: .95;
+    background-color: #233535;
+}
+
+/* 
 TODO: Skill and other section card hover action 
-TODO: Add oppacity .7 every picture and icon
 TODO: Add link to social icon. 
-TODO: Fotter 
 TODO: paignation 
 TODO: BD Cricket API
 TODO: Wather API
 TODO: Night View 
 TODO: Bangla or Other Language
 TODO: download resulme beside hire me 
-TODO: Munus hover effects main menu 
 TODO: contact form , Order now form
 
 
