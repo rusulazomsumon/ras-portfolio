@@ -11,7 +11,7 @@ window.addEventListener("scroll", () => {
 });
 
 //geting the copyright elements 
+//showing current year 
 var currentYear = new Date().getFullYear();
-console.log(currentYear);
 var copyElmts = document.querySelector(".year");
 copyElmts.innerHTML = currentYear;
