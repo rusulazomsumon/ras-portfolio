@@ -662,7 +662,10 @@ footer{
 .footer-item-container a{
     text-decoration: none;
 }
-
+.copyright{
+    display: flex;
+    justify-content: center;
+}
 /* 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%((((((((BACK TO TOP)))))))))%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 */

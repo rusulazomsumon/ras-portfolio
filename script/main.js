@@ -11,8 +11,7 @@ window.addEventListener("scroll", () => {
 });
 
 //geting the copyright elements 
-// var currentYear = document.write(new Date().getFullYear());
-var copyElmts = document.querySelector(".copyright");
-copyElmts.innerHTML = '<p> Copyright &copy; <script> currentYear </script> <a href="https://www.rusulazom.xyz" target="_blank">Rusul Azom Sumon</a> All Rights Reserved </p>';
-
-// Copyright &copy; <script>document.write(new Date().getFullYear())</script> <a href="https://www.rusulazom.xyz" target="_blank">Rusul Azom Sumon</a> All Rights Reserved
+var currentYear = new Date().getFullYear();
+console.log(currentYear);
+var copyElmts = document.querySelector(".year");
+copyElmts.innerHTML = currentYear;
