@@ -741,10 +741,6 @@ TODO: contact form , Order now form
 @media only screen and (max-width: 960px) {
     .container{
         width: 100vw;
-        height: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        
     }
 }
 
