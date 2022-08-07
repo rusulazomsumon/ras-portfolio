@@ -727,14 +727,35 @@ TODO: contact form , Order now form
 
 
 /* Responsive Design */
-/* bio-area */
+/* Header Area */
 @media only screen and (max-width: 960px) {
-    .bio-card-design{
+    .container{
+        width: 100vw;
         height: auto;
         display: grid;
         grid-template-columns: 1fr;
-        column-gap: 2rem;
-        background-color: #ca5757;
+        
+    }
+}
+/* navigaation */
+@media only screen and (max-width: 960px) {
+    .container{
+        width: 100vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+}
+
+/* bio-area */
+@media only screen and (max-width: 960px) {
+    .container{
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+       
     }  
 }
+
 
