@@ -730,10 +730,11 @@ TODO: contact form , Order now form
 /* bio-area */
 @media only screen and (max-width: 960px) {
     .bio-card-design{
+        height: auto;
         display: grid;
         grid-template-columns: 1fr;
         column-gap: 2rem;
-        background-color: #161212;
+        background-color: #ca5757;
     }  
 }
 
