@@ -740,7 +740,7 @@ TODO: contact form , Order now form
 /* navigaation */
 @media only screen and (max-width: 960px) {
     .container{
-        width: 100vw;
+        width: 960;
     }
 }
 
