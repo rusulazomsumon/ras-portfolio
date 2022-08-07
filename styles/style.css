@@ -736,7 +736,7 @@ TODO: contact form , Order now form
         border: 1px solid #202222;
         border-radius: 10px;
         box-shadow: 2px 2px 5px #021407;
-        display: flex;
+        /* display: inline; */
     
         /* background-color: #ffffff; */
         background-color: #be1111;
