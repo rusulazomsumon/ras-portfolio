@@ -155,6 +155,10 @@ nav{
     cursor: pointer;
     transition: transform 0.8s;
 }
+.icon-container .a{
+    text-decoration: none;
+}
+
 .icon-container .icon-item:hover{
     /* TODO: https://www.youtube.com/watch?v=EgRKkn76pic */
     transform: translateY(-10px);   
@@ -705,6 +709,37 @@ footer{
     background-color: #233535;
 }
 
+
+
+/* Responsive Design */
+/* Header Area */
+@media only screen and (max-width: 960px) {
+    .card-design{
+        width: 100vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+}
+/* navigaation */
+@media only screen and (max-width: 960px) {
+    .container{
+        width: 960;
+    }
+}
+
+/* bio-area */
+@media only screen and (max-width: 960px) {
+    .bio-card-design{
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #000000;
+    }  
+}
+
+
 /* 
 TODO: Skill and other section card hover action 
 TODO: Add link to social icon. 
@@ -715,8 +750,7 @@ TODO: Night View
 TODO: Bangla or Other Language
 TODO: download resulme beside hire me 
 TODO: contact form , Order now form
-
-
+TODO: Update media quotry 
 
 
 */
