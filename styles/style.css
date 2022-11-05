@@ -713,31 +713,6 @@ footer{
 
 /* Responsive Design */
 /* Header Area */
-@media only screen and (max-width: 960px) {
-    .card-design{
-        width: 100vw;
-        height: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        
-    }
-}
-/* navigaation */
-@media only screen and (max-width: 960px) {
-    .container{
-        width: 960;
-    }
-}
-
-/* bio-area */
-@media only screen and (max-width: 960px) {
-    .bio-card-design{
-        height: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        background-color: #000000;
-    }  
-}
 
 
 /* 
